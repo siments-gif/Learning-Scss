@@ -1,13 +1,17 @@
 // styles.scss
+@import "global";
+
 $primary-color: #3498db;
+
 @mixin flex-center {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 }
 
 .container {
   background-color: $primary-color;
+
   h1 {
     color: red;
   }
