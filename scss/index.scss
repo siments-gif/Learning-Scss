@@ -1,0 +1,14 @@
+// styles.scss
+$primary-color: #3498db;
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: $primary-color;
+  h1 {
+    color: red;
+  }
+}
